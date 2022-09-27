@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Garage Door</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+
+</head>
+
+<body>
+  <center>
+    <h1>Garage door</h1>
+    <form align="center" method="post" action="/">
+          <input type="submit" value="toggle_door" name="action"/>
+    </form>
+  </center>
+  <br>
+  <center>
+    <h1>Sprinklers</h1>
+    <form align="center" method="post" action="/">
+          <input type="submit" value="run_sprinklers" name="action"/>
+    </form>
+  </center>
+</body>
+
+</html>
